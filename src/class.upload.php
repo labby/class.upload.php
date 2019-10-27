@@ -29,7 +29,7 @@ namespace Verot\Upload;
 
 /**
  * Class upload
- *
+ * @release		2.0.4
  * @docs		https://github.com/verot/class.upload.php 
  * @author		Colin Verot <colin@verot.net>
  * @license		http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -238,7 +238,7 @@ class Upload {
      * @access public
      * @public bool
      */
-    public uploaded           = true;
+    public $uploaded           = true;
 
     /**
      * Flag stopping PHP upload checks
